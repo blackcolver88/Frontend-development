@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+#cc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url('ff.png') no-repeat;
+    background-position: center;
+    background-position: cover;
+    background-size: cover;
+
+}
+
+.box {
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: (#15b1e0, #02deb9);
+    border: 2px solid #bfe6f3;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.inputbox {
+    
+    
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #0b0a0a;
+    left: 3px;
+}
+
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #0b0a0a;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+
+input:focus~label,
+input:valid~label {
+    top: -5px;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: #0b0a0a;
+}
+
+.inputbox ion-icon {
+    position: absolute;
+    right: 8px;
+    color: #0b0a0a;
+    font-size: 1.2em;
+    top: 20px;
+    left: 30px;
+}
+
+.forget {
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: #0b0a0a;
+    display: flex;
+    justify-content: space-between;
+    left: 3px;
+    position: relative;
+    top: 10px;
+}
+
+.forget label input {
+    margin-right: 3px;
+
+}
+
+.forget label a {
+    color: #0b0a0a;
+    text-decoration: none;
+}
+
+.forget label a:hover {
+    text-decoration: underline;
+}
+
+.button2 {
+    width: 80%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    border: 2px solid rgb(62, 71, 79);
+    position:relative;
+    left: 40px;
+}
+
+.button2:hover {
+    background-color: #0abede42;
+    color: rgb(129, 132, 165);
+}
+.form-value h2 {
+    font-size: 2em;
+    color: #0b0a0a;
+    text-align: center;
+}
+.signup {
+    font-size: .20em;
+    color: #0b0a0a;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+.signup p a {
+    text-decoration: none;
+    color: #0b0a0a;
+    font-weight: 600;
+}
+
+.signup p a:hover {
+    text-decoration: underline;
+}

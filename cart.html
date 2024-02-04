@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Panier</title>
+    <link rel="icon" href="logo.png">
+   
+    <link rel="stylesheet" href="sd.css" />
+    <script src="https://use.fontawesome.com/dfba0bb4d8.js"></script>
+  </head>
+  <body>
+    <section id="header">
+      <a href="#"><img src="logo.png" class="logo" alt="" /></a>
+      <div class="search-container">
+        <form>
+          <input type="text" placeholder="Search...">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+      <div>
+        <ul id="navbar">
+            
+          <a href="#" id="close"><i class="fa fa-close"></i></a>
+          
+          <li><a href="homepage.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="about.html">About</a></li>
+          
+          <li id="lg-bag">
+            <a class="active" href="cart.html"
+              ><i class="fa fa-shopping-bag" ></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"
+          ><i class="fa fa-shopping-bag" ></i
+        ></a>
+        <i id="bar" class="fa fa-bars" ></i>
+      </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+        <a href="#" class="to-top">
+            <p class="to-top--title">BACK <br> TO TOP</p>
+        </a>
+      <h2>#CART</h2>
+      <p>Enter your coupon code...</p>
+      <a href="#" class="to-top">
+        <i class="fas fa-chevron-up"></i>
+      </a>
+    </section>
+
+  
+    <div class="small-container">
+      <table>
+        <tr>
+          <th>Product</th>
+          <th>Quantity</th>
+          <th>Subtotal</th>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="mixeur.jpg" alt="mixeur" />
+              <div>
+                <p>Mixeur</p>
+                <small>Price: $30.00</small>
+                <br />
+                <a href="#">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>$30.00</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="smar.jpg" alt="Smart Watch" />
+              <div>
+                <p>Smart Watch</p>
+                <small>Price: $200.00</small>
+                <br />
+                <a href="#">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="2" /></td>
+          <td>$400.00</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="fridge.jpg" alt="fridge" />
+              <div>
+                <p>Microwave</p>
+                <small>Price: $1799.00</small>
+                <br />
+                <a href="#">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>$1799.00</td>
+        </tr>
+      </table>
+
+      <div class="total-price">
+        <table>
+          <tr>
+            <td>Subtotal</td>
+            <td>$2229.00</td>
+          </tr>
+          <tr>
+            <td>Tax</td>
+            <td>$30.00</td>
+          </tr>
+          <tr>
+            <td>Total</td>
+            <td>$2259.00</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+   
+    <footer class="section-p1">
+        <div class="col">
+            <h4>CONTACT</h4>
+            <p><strong>Address :</strong>58,Rue Des Entrepreneurs Charguia II  | 2035 Tunis</p>
+            <p><strong>Phone :</strong>(+216) 56 206 248 |  (+216) 50 565 309</p>
+            
+            
+        </div>
+    
+        <div class="col">
+            <h4>OUR SERVICES</h4>
+            <a href="#">Our stores</a>
+            <a href="#">Business Service</a>
+            <a href="#">Customer Service</a>
+            <a href="#">Drive Service</a>
+            <a href="#">Delivery Service</a>
+            <a href="#">After-sales service</a>
+            <a href="#">Contact us</a>
+            
+        </div>
+    
+        <div class="col">
+            <h4>INFORMATION</h4>
+            <a href="about.html">About Us</a>
+            <a href="#">Terms and Conditions</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Shipping & Returns</a>
+            <a href="#">Secure Shopping</a>
+            <a href="#">Order Status</a>
+            <a href="#">Payment Method </a>
+        </div>
+    
+    
+        
+    
+        <div class="copyright">
+            <p>Copyright © 2023-present MB, Inc. All rights reserved.</p>
+        </div>
+    
+       </footer>
+    
+        <script src="script.js"></script>
+    </body>
+    </html>
